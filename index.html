@@ -1,72 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce</title>
-    <!-- Bootsrap CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <!-- header start  -->
-    <header>
-      <div class="global-notification">
-        <p>
-          SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY
-          <a href="shop.html"> SHOP NOW</a>
-        </p>
-      </div>
-      <div class="header-row">
-        <div class="container">
-          <div class="header-wrapper">
-            <div class="header-left">
-                <a href="#">LOGO</a></div>
-            <div class="header-center">
-              <nav class="navigation">
-                <ul class="menu-list">
-                  <li class="menu-list-item">
-                      <a href="#" class="menu-link">Home</a>
-                      <i class="bi bi-chevron-down"></i>                
-                 </li>
-                 <li class="menu-list-item">
-                      <a href="#" class="menu-link">Shop</a>
-                      <i class="bi bi-chevron-down"></i>           
-                 </li>
-                  <li class="menu-list-item">
-                      <a href="#" class="menu-link">Blog</a>
-                      <i class="bi bi-chevron-down"></i>                  
-                 </li>
-                  <li class="menu-list-item">
-                     <a href="#" class="menu-link">Contact</a>
-                     <i class="bi bi-chevron-down"></i>                 
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="header-right">
-              <div class="header-right-links">
-                <div class="header-account">
-                  <a href="#">
-                    <i class="bi bi-person"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce</title>
+  <!-- Bootsrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- header start  -->
+  <header>
+    <div class="global-notification">
+      <p>
+        SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY
+        <a href="shop.html"> SHOP NOW</a>
+      </p>
+    </div>
+    <div class="header-row">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-left">
+            <a href="#">LOGO</a>
+          </div>
+          <div class="header-center">
+            <nav class="navigation">
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link active">
+                    Home
+                    <i class="bi bi-chevron-down"></i>
                   </a>
-                  <button class="search-toggle">
-                    <i class="bi bi-search"></i>
-                  </button>
-                  <a href="#">
-                    <i class="bi bi-heart"></i>
+                  <div class="menu-dropdown-wrapper">
+                    <ul class="menu-dropdown-content">
+                      <li>
+                        <a href="#"> Home Clean</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home Collection</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home Minimal</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home Modern</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home Parallax</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home Strong</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home Unique</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home RTL</a>
+                      </li>
+                      <li>
+                        <a href="#"> Home Style</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">
+                    Shop
+                    <i class="bi bi-chevron-down"></i>
                   </a>
-                  <a href="#">
-                    <i class="bi bi-bag"></i>
-                    <span class="header-cart-count"> 0</span>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">
+                    Blog
+                    <i class="bi bi-chevron-down"></i>
                   </a>
-                </div>
+                </li>
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">
+                    Contact
+                    <i class="bi bi-chevron-down"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-right">
+            <div class="header-right-links">
+              <a href="#" class="header-account">
+                <i class="bi bi-person"></i>
+              </a>
+              <button class="toggle-button">
+                <i class="bi bi-search"></i>
+              </button>
+              <a href="#">
+                <i class="bi bi-heart"></i>
+              </a>
+              <div class="header-cart">
+                <a href="#" class="header-cart-link">
+                  <i class="bi bi-bag"></i>
+                  <span class="header-cart-count">0</span>
+                </a>
               </div>
             </div>
           </div>
+        </div>
       </div>
-    </header>
-  </body>
+  </header>
+</body>
+
 </html>
